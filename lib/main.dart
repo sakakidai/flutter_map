@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
       child: MaterialApp(
         title: 'Great Places',
         theme: theme.copyWith(colorScheme: theme.colorScheme.copyWith(secondary: Colors.amber)),
-        home: PlacesListScreen(),
+        home: const PlacesListScreen(),
         routes: {
           AddPlaceScreen.routeName: (ctx) => const AddPlaceScreen(),
         },
